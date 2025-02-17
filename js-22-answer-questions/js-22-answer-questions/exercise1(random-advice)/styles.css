@@ -1,0 +1,68 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+    background-color: hsl(218, 23%, 16%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 540px;
+    padding: 0 20px;
+}
+
+.advice-card {
+    background-color: hsl(217, 19%, 24%);
+    border-radius: 15px;
+    padding: 40px;
+    text-align: center;
+    position: relative;
+}
+
+.advice-id {
+    color: hsl(150, 100%, 66%);
+    font-size: 14px;
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+}
+
+.advice-text {
+    color: hsl(193, 38%, 86%);
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.divider img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.dice-button {
+    background-color: hsl(150, 100%, 66%);
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
+}
+
+.dice-button:hover {
+    box-shadow: 0 0 20px hsl(150, 100%, 66%);
+}
